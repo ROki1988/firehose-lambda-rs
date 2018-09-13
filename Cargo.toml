@@ -1,0 +1,6 @@
+[package]
+name = "firehose-lambda-rs"
+version = "0.1.0"
+authors = ["ROki1988 <roki.swindler@gmail.com>"]
+
+[dependencies]
