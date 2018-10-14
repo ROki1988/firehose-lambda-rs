@@ -4,3 +4,11 @@ version = "0.1.0"
 authors = ["ROki1988 <roki.swindler@gmail.com>"]
 
 [dependencies]
+aws_lambda = { git = "https://github.com/ROki1988/rust-aws-lambda", branch = "parse_multi_const"}
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+regex = "0.2"
+lazy_static = "1.0.0"
+chrono = "0.4"
+rayon = "0.9"
