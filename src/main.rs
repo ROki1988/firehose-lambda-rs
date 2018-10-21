@@ -25,9 +25,7 @@ lazy_static! {
 
 fn main() {
     lambda::start(|input: KinesisFirehoseEvent| {
-        my_handler(input);
-
-        Ok(())
+        Ok(my_handler(input))
     })
 }
 
